@@ -1,3 +1,6 @@
+import models.Raizes;
+import models.Usuario;
+
 public interface FuncionalidadesIF {
     Usuario cadastraUsuario(String nome, String email, String senha);
 
