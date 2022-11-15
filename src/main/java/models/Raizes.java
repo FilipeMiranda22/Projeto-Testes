@@ -4,6 +4,11 @@ public class Raizes {
     private double x1;
     private double x2;
 
+    @Override
+    public String toString() {
+        return String.format("x1 = %.2f; x2 = %.2f", getX1(), getX2());
+    }
+
     public Raizes() {
 
     }
@@ -17,15 +22,8 @@ public class Raizes {
         return x1;
     }
 
-    public void setX1(double x1) {
-        this.x1 = x1;
-    }
-
     public double getX2() {
         return x2;
     }
 
-    public void setX2(double x2) {
-        this.x2 = x2;
-    }
 }
