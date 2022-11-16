@@ -79,17 +79,41 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public boolean ehTrianguloRetangulo(double lado1, double lado2, double lado3) {
-        return false;
+        if (lado1 > 0 && lado2 > 0 && lado3 > 0 ) {
+            if (lado1 * lado1 + lado2 * lado2 == lado3 * lado3) {
+                return true;
+            } else if (lado2 * lado2 + lado3 * lado3 == lado1 * lado1) {
+                return true;
+            }
+            else if (lado3 * lado3 + lado1 * lado1 == lado2 * lado2) {
+                return true;
+            }
+            return false;
+        }
+        else {
+            throw new RuntimeException("Os lados do triângulo devem ser maiores que 0");
+        }
     }
 
     @Override
     public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {
-        return null;
+        if (ehTriangulo(angulo1, angulo2, angulo3)){
+            if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){
+                return "Triângulo Acutângulo";
+            }
+            else if (angulo1 == 90 || angulo2 == 90 || angulo3 == 90){
+                return "Triângulo Retângulo";
+            }
+            else if (angulo1 > 90 || angulo2 > 90 || angulo3 > 90){
+                return "Triângulo Obtusângulo";
+            }
+        }
+        return "Os ângulos não correspondem a um triângulo";
     }
 
     @Override
     public boolean ehRetangulo(double angulo1, double angulo2, double angulo3, double angulo4) {
-        return false;
+        return angulo1 == 90 && angulo2 == 90 && angulo3 == 90 && angulo4 == 90;
     }
 
     @Override
