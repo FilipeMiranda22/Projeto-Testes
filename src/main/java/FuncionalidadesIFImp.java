@@ -6,6 +6,8 @@ import java.math.RoundingMode;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
+import javax.management.InvalidAttributeValueException;
+
 public class FuncionalidadesIFImp implements FuncionalidadesIF {
     private BancoDeDados getBancoDeDados() {
         return bancoDeDados;
@@ -116,7 +118,53 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double calculadora(String expressao) {
-        return 0;
+        try {
+            String[] operacao = expressao.trim().split("\\s+");
+            if (operacao.length != 3 || operacao[0].isEmpty() || operacao[1].isEmpty() || operacao[2].isEmpty()) {
+                throw new InvalidAttributeValueException();
+            }
+
+            double resultado;
+            double num1 = Double.parseDouble(operacao[0]);
+            double num2 = Double.parseDouble(operacao[2]);
+            String operador = operacao[1];
+
+            switch (operador) {
+                case "+":
+                    resultado = num1 + num2;
+                    break;
+                case "-":
+                    resultado = num1 - num2;
+                    break;
+                case "*":
+                    resultado = num1 * num2;
+                    break;
+                case "/":
+                    if (num2 != 0) {
+                        resultado = num1 / num2;
+                    } else {
+                        throw new ArithmeticException();
+                    }
+                    break;
+                case "**":
+                    if (num2 < 0 && num1 == 0 ||  !operacao[2].matches("-?\\d+")) {
+                        throw new ArithmeticException();
+                    }
+                    resultado = Math.pow(num1, num2);
+                    break;
+                default:
+                    throw new ArithmeticException();
+            }
+            return Double.parseDouble(String.format("%.2f", resultado).replace(",", "."));
+        }
+        catch(InvalidAttributeValueException ex){
+            System.out.println("Expressão inválida. Sintaxe: \"NUMERO1 OPERADOR NUMERO2\"");
+        }
+        catch(ArithmeticException ex){
+            System.out.println("\nA operação é inválida. Tente realizar a operação com outros números.\n");
+        }
+
+        throw RuntimeException("Erro durante o procesamento. Tente novamente!")
     }
 
     @Override
