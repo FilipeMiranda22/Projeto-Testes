@@ -2,6 +2,12 @@ package models;
 
 public class Usuario {
 
+
+    @Override
+    public String toString() {
+        return "Nome: %s\nEmail: %s".formatted(this.nome, this.email);
+    }
+
     public Usuario(String email, String senha, String nome) {
         this.email = email;
         this.senha = senha;
