@@ -10,6 +10,7 @@ public class InterfaceTexto {
         System.out.println("3 = É triangulo?\n4 = Classificar triangulo");
         System.out.println("5 = Verificar se triangulo é retangulo\n6 = É retangulo?");
         System.out.println("7 = Área e perimetro do retangulo\n8 = Calculadora");
+        System.out.println("9 = Área e perimetro do circulo\n10 = Distancia entre dois pontos");
     }
 
     public static int capturaOpcao() {
@@ -19,7 +20,7 @@ public class InterfaceTexto {
         } catch (Exception e) {
             throw new RuntimeException("Entrada inválida", e);
         }
-        if (opcao < 0 || opcao > 8) {
+        if (opcao < 0 || opcao > 10) {
             throw new RuntimeException("Entrada inválida");
         }
         return opcao;
@@ -116,12 +117,31 @@ public class InterfaceTexto {
                     break;
                 case 8:
                     System.out.println("Digite uma expressão do tipo \"1 + 1\":");
-                    var exp = sc.next();
                     sc.nextLine();
+                    var exp = sc.nextLine();
                     System.out.printf("Resultado: %.3f\n", funcionalidadesIF.calculadora(exp));
                     break;
+                case 9:
+                    System.out.println("Digite o raio do circulo:");
+                    var r = sc.nextDouble();
+                    sc.nextLine();
+                    System.out.printf("Area do circulo: %.2f\n", funcionalidadesIF.areaCirculo(r));
+                    System.out.printf("Perimetro do circulo: %.2f\n", funcionalidadesIF.perimetroCirculo(r));
+                    break;
+                case 10:
+                    System.out.println("Digite a posicao do ponto a(x,y):");
+                    String[] aAux = sc.next().split(",");
+                    sc.nextLine();
+                    var xa = Double.parseDouble(aAux[0]);
+                    var ya = Double.parseDouble(aAux[1]);
+                    System.out.println("Digite a posicao do ponto b(x,y):");
+                    String[] bAux = sc.next().split(",");
+                    var xb = Double.parseDouble(bAux[0]);
+                    var yb = Double.parseDouble(bAux[1]);
+                    System.out.printf("A distancia entre os dois pontos é: %.2f\n", funcionalidadesIF.distanciaEntreDoisPontos(xa, ya, xb, yb));
+                    break;
             }
-        } catch (InputMismatchException e) {
+        } catch (InputMismatchException | IndexOutOfBoundsException | NumberFormatException e) {
             throw new RuntimeException("Entradas invalidas para a opção " + opcao);
         }
     }

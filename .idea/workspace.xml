@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11dc614e-d052-4959-830c-a00cb2d347c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banco.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InterfaceTexto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/banco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterfaceTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfaceTexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1667840626691" duration="177000" />
       <workItem from="1668469396781" duration="810000" />
       <workItem from="1668531224084" duration="3959000" />
-      <workItem from="1668643630738" duration="4159000" />
+      <workItem from="1668643630738" duration="5390000" />
     </task>
     <servers />
   </component>
@@ -90,9 +87,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/InterfaceTexto.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
