@@ -22,9 +22,6 @@ public class Main {
             }
 
             InterfaceTexto.executaFuncao(opcao, fun);
-
-
-
         }
     }
 }

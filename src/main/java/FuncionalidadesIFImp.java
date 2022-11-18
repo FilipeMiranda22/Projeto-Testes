@@ -1,6 +1,8 @@
 import models.Raizes;
 import models.Usuario;
 
+import javax.management.InvalidAttributeValueException;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Locale;
@@ -87,17 +89,46 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public boolean ehTrianguloRetangulo(double lado1, double lado2, double lado3) {
-        return false;
+        if (lado1 > 0 && lado2 > 0 && lado3 > 0 ) {
+            if (lado1 * lado1 + lado2 * lado2 == lado3 * lado3) {
+                return true;
+            } else if (lado2 * lado2 + lado3 * lado3 == lado1 * lado1) {
+                return true;
+            }
+            else if (lado3 * lado3 + lado1 * lado1 == lado2 * lado2) {
+                return true;
+            }
+            return false;
+        }
+        else {
+            throw new RuntimeException("Os lados do triangulo devem ser maiores que 0");
+        }
     }
 
     @Override
     public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {
-        return null;
+        if (ehTriangulo(angulo1, angulo2, angulo3)){
+            if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){
+                return "Triangulo Acutangulo";
+            }
+            else if (angulo1 == 90 || angulo2 == 90 || angulo3 == 90){
+                return "Triangulo Retangulo";
+            }
+            else if (angulo1 > 90 || angulo2 > 90 || angulo3 > 90){
+                return "Triangulo Obtusangulo";
+            }
+        }
+        throw new RuntimeException("Os angulos não correspondem a um triângulo");
     }
 
     @Override
     public boolean ehRetangulo(double angulo1, double angulo2, double angulo3, double angulo4) {
-        return false;
+        if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && angulo4 > 0) {
+            return angulo1 == 90 && angulo2 == 90 && angulo3 == 90 && angulo4 == 90;
+        }
+        else {
+            throw new RuntimeException("Os ângulos devem ser maiores que 0");
+        }
     }
 
     @Override
@@ -161,13 +192,11 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
             return Double.parseDouble(String.format("%.2f", resultado).replace(",", "."));
         }
         catch(InvalidAttributeValueException ex){
-            System.out.println("Expressão inválida. Sintaxe: \"NUMERO1 OPERADOR NUMERO2\"");
+            throw new RuntimeException("Expressão inválida. Sintaxe: \"NUMERO1 OPERADOR NUMERO2\"");
         }
         catch(ArithmeticException ex){
-            System.out.println("\nA operação é inválida. Tente realizar a operação com outros números.\n");
+            throw new RuntimeException("\nA operação é inválida. Tente realizar a operação com outros números.\n");
         }
-
-        throw new RuntimeException("Erro durante o procesamento. Tente novamente!");
     }
 
     @Override
