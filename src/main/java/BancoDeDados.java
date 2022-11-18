@@ -21,7 +21,7 @@ public class BancoDeDados {
 
     public void salvaUsuario(Usuario usuario) {
         try (FileWriter writer = new FileWriter(getArquivo(), true)) {
-            writer.write(String.format("%s;%s;%s", usuario.getNome(), usuario.getEmail(), usuario.getSenha()));
+            writer.write(String.format("%s;%s;%s\n", usuario.getNome(), usuario.getEmail(), usuario.getSenha()));
         } catch (Exception e) {
             System.out.println("Erro ao salvar usuário: " + e.getMessage());
         }
