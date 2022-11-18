@@ -22,7 +22,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
     private boolean validarSenha(String senha) {
         return senha.length() >= 8 &&
                 patternEspeciais.matcher(senha).find() &&
-                patternNumeros.matcher(senha).results().count() > 2 &&
+                patternNumeros.matcher(senha).results().count() >= 2 &&
                 patternMaiusculos.matcher(senha).find() &&
                 patternMinusculos.matcher(senha).find();
     }

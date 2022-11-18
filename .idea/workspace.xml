@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11dc614e-d052-4959-830c-a00cb2d347c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Raizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Raizes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="teste-software" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +74,23 @@
       <updated>1667840625459</updated>
       <workItem from="1667840626691" duration="177000" />
       <workItem from="1668469396781" duration="810000" />
-      <workItem from="1668531224084" duration="3959000" />
+      <workItem from="1668531224084" duration="5461000" />
+      <workItem from="1668707931250" duration="78000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
