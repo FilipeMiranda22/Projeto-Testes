@@ -2,9 +2,13 @@ import models.Raizes;
 import models.Usuario;
 
 import javax.management.InvalidAttributeValueException;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Locale;
 import java.util.regex.Pattern;
+
+import javax.management.InvalidAttributeValueException;
 
 public class FuncionalidadesIFImp implements FuncionalidadesIF {
     private BancoDeDados getBancoDeDados() {
@@ -31,7 +35,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
     }
 
     private boolean validarEmail(String email) {
-        return patternEmail.matcher(email).matches();
+        return email != null && !email.isBlank() && patternEmail.matcher(email).matches();
     }
 
     @Override
@@ -41,6 +45,9 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
         }
         if (!validarEmail(email)) {
             throw new RuntimeException("Email invalido");
+        }
+        if (nome == null || nome.isBlank()) {
+            throw new RuntimeException("Nome invalido");
         }
 
         if (getBancoDeDados() == null) {
@@ -185,7 +192,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
             return Double.parseDouble(String.format("%.2f", resultado).replace(",", "."));
         }
         catch(InvalidAttributeValueException ex){
-            throw  new RuntimeException("Expressão inválida. Sintaxe: \"NUMERO1 OPERADOR NUMERO2\"");
+            throw new RuntimeException("Expressão inválida. Sintaxe: \"NUMERO1 OPERADOR NUMERO2\"");
         }
         catch(ArithmeticException ex){
             throw new RuntimeException("\nA operação é inválida. Tente realizar a operação com outros números.\n");
@@ -218,7 +225,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double distanciaEntreDoisPontos(double x1, double y1, double x2, double y2) {
-        double distancia = Math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+        double distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
         return BigDecimal.valueOf(distancia)
                 .setScale(2, RoundingMode.HALF_UP)
                 .doubleValue();
