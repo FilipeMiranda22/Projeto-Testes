@@ -1,10 +1,18 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        FuncionalidadesIF fun = new FuncionalidadesIFImp();
+        FuncionalidadesIFImp fun = new FuncionalidadesIFImp();
 
-        System.out.println(fun.ehTriangulo(10, 10, 160));
-        System.out.println(fun.calculaFuncaoSegundoGrau(1, -3, -10));
+        while (true) {
+            InterfaceTexto.opcoes();
+            int opcao = InterfaceTexto.capturaOpcao();
+            if (opcao == 0) {
+                break;
+            }
 
-        fun.cadastraUsuario("Arthur", "arthu2r@email.com", "ABC#12das@bbbb");
+            InterfaceTexto.executaFuncao(opcao, fun);
+        }
     }
 }
