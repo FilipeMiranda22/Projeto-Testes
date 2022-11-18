@@ -101,7 +101,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
             return false;
         }
         else {
-            throw new RuntimeException("Os lados do triangulo devem ser maiores que 0");
+            throw new RuntimeException("Os lados do triângulo devem ser maiores que 0");
         }
     }
 
@@ -109,16 +109,16 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
     public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {
         if (ehTriangulo(angulo1, angulo2, angulo3)){
             if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){
-                return "Triangulo Acutangulo";
+                return "Triângulo Acutângulo";
             }
             else if (angulo1 == 90 || angulo2 == 90 || angulo3 == 90){
-                return "Triangulo Retangulo";
+                return "Triângulo Retângulo";
             }
             else if (angulo1 > 90 || angulo2 > 90 || angulo3 > 90){
-                return "Triangulo Obtusangulo";
+                return "Triângulo Obtusângulo";
             }
         }
-        throw new RuntimeException("Os angulos não correspondem a um triângulo");
+        throw new RuntimeException("Os ângulos não correspondem à um triângulo");
     }
 
     @Override

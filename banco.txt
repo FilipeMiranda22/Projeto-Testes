@@ -3,3 +3,5 @@ Arthur;arthu2r@email.com;ABC#12das@bbbb
 Arthur;arthu2r@email.com;ABC#12das@bbbb
 Arthur;arthu2r@email.com;ABC#12das@bbbb
 Arthur;arthu2r@email.com;ABC#12das@bbbb
+Vitor;vitor@email.com;Vitor_123
+nani;nani12@gmail.com;Nani_123

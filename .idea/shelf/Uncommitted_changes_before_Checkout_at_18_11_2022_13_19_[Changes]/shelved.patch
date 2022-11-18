@@ -1,0 +1,372 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"11dc614e-d052-4959-830c-a00cb2d347c3\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Main.java\" afterDir=\"false\" />\r\n\r\n      <change beforePath=\"$PROJECT_DIR$/banco.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/banco.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/BancoDeDados.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/BancoDeDados.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/InterfaceTexto.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/InterfaceTexto.java\" afterDir=\"false\" />\r\n\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HEBzbGpT3gRYwK1IXzWjOLA0U7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18 (2)\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/arthur/workspace/ifpb/Projeto-Testes&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\"/>\r\n\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Projeto-Testes\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"11dc614e-d052-4959-830c-a00cb2d347c3\" name=\"Changes\" comment=\"\" />\r\n      <created>1667840625459</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1667840625459</updated>\r\n      <workItem from=\"1667840626691\" duration=\"177000\" />\r\n      <workItem from=\"1668469396781\" duration=\"810000\" />\r\n      <workItem from=\"1668531224084\" duration=\"3959000\" />\r\n\r\n      <workItem from=\"1668555563390\" duration=\"4409000\" />\r\n      <workItem from=\"1668621011281\" duration=\"155000\" />\r\n      <workItem from=\"1668648746017\" duration=\"633000\" />\r\n      <workItem from=\"1668649522526\" duration=\"710000\" />\r\n      <workItem from=\"1668650288685\" duration=\"53000\" />\r\n      <workItem from=\"1668650451245\" duration=\"3170000\" />\r\n\r\n      <workItem from=\"1668643630738\" duration=\"5390000\" />\r\n\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>\r\n          <line>169</line>\r\n          <option name=\"timeStamp\" value=\"4\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>\r\n          <line>162</line>\r\n          <option name=\"timeStamp\" value=\"5\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 690befaeec1a78d4a399256ca567fa295414ef5e)
++++ b/.idea/workspace.xml	(date 1668784623136)
+@@ -4,17 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="11dc614e-d052-4959-830c-a00cb2d347c3" name="Changes" comment="">
++    <list default="true" id="5fe2bfca-9d35-4e00-b99e-c3548939b493" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-
+-      <change beforePath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+-
+       <change beforePath="$PROJECT_DIR$/banco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/banco.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancoDeDados.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/InterfaceTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfaceTexto.java" afterDir="false" />
+-
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,43 +45,28 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-
+-  <component name="PropertiesComponent">
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="node.js.detected.package.eslint" value="true" />
+-    <property name="node.js.detected.package.tslint" value="true" />
+-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "//wsl$/Ubuntu/home/arthur/workspace/ifpb/Projeto-Testes",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
++  }
++}]]></component>
+   <component name="RunManager">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="ALTERNATIVE_JRE_PATH" value="18 (2)" />
+-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/arthur/workspace/ifpb/Projeto-Testes&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+-  }
+-}</component>
+-  <component name="RunManager">
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true"/>
+-
+       <option name="MAIN_CLASS_NAME" value="Main" />
+-      <module name="Projeto-Testes" />
++      <module name="teste-software" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -108,21 +88,29 @@
+       <workItem from="1667840626691" duration="177000" />
+       <workItem from="1668469396781" duration="810000" />
+       <workItem from="1668531224084" duration="3959000" />
+-
+       <workItem from="1668555563390" duration="4409000" />
+       <workItem from="1668621011281" duration="155000" />
+       <workItem from="1668648746017" duration="633000" />
+       <workItem from="1668649522526" duration="710000" />
+       <workItem from="1668650288685" duration="53000" />
+       <workItem from="1668650451245" duration="3170000" />
+-
+       <workItem from="1668643630738" duration="5390000" />
+-
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -132,12 +120,7 @@
+           <line>169</line>
+           <option name="timeStamp" value="4" />
+         </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/FuncionalidadesIFImp.java</url>
+-          <line>162</line>
+-          <option name="timeStamp" value="5" />
+-        </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
+-</project>
++</project>
+\ No newline at end of file
+Index: src/main/java/FuncionalidadesIFImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import models.Raizes;\r\nimport models.Usuario;\r\n\r\nimport javax.management.InvalidAttributeValueException;\r\n\r\nimport java.math.BigDecimal;\r\nimport java.math.RoundingMode;\r\nimport java.util.Locale;\r\nimport java.util.regex.Pattern;\r\n\r\nimport javax.management.InvalidAttributeValueException;\r\n\r\npublic class FuncionalidadesIFImp implements FuncionalidadesIF {\r\n    private BancoDeDados getBancoDeDados() {\r\n        return bancoDeDados;\r\n    }\r\n\r\n    private void setBancoDeDados(BancoDeDados bancoDeDados) {\r\n        this.bancoDeDados = bancoDeDados;\r\n    }\r\n\r\n    private BancoDeDados bancoDeDados;\r\n    private final static Pattern patternEspeciais = Pattern.compile(\"[!@#$%&*()_+=|<>?{}\\\\[\\\\]~-]\");\r\n    private final static Pattern patternNumeros = Pattern.compile(\"[0-9]\");\r\n    private final static Pattern patternMaiusculos = Pattern.compile(\"[A-Z]\");\r\n    private final static Pattern patternMinusculos = Pattern.compile(\"[a-z]\");\r\n    private final static Pattern patternEmail = Pattern.compile(\"^[a-z0-9.]+@[a-z0-9]+\\\\..*\");\r\n\r\n    private boolean validarSenha(String senha) {\r\n        return senha.length() >= 8 &&\r\n                patternEspeciais.matcher(senha).find() &&\r\n                patternNumeros.matcher(senha).results().count() >= 2 &&\r\n                patternMaiusculos.matcher(senha).find() &&\r\n                patternMinusculos.matcher(senha).find();\r\n    }\r\n\r\n    private boolean validarEmail(String email) {\r\n        return email != null && !email.isBlank() && patternEmail.matcher(email).matches();\r\n    }\r\n\r\n    @Override\r\n    public Usuario cadastraUsuario(String nome, String email, String senha) {\r\n        if (!validarSenha(senha)) {\r\n            throw new RuntimeException(\"Senha invalida\");\r\n        }\r\n        if (!validarEmail(email)) {\r\n            throw new RuntimeException(\"Email invalido\");\r\n        }\r\n        if (nome == null || nome.isBlank()) {\r\n            throw new RuntimeException(\"Nome invalido\");\r\n        }\r\n\r\n        if (getBancoDeDados() == null) {\r\n            try {\r\n                setBancoDeDados(new BancoDeDados());\r\n            } catch (Exception e) {\r\n                System.out.println(\"Falha ao iniciar conexão com o banco de dados\");\r\n            }\r\n        }\r\n\r\n        Usuario usuario = new Usuario(email, senha, nome);\r\n        getBancoDeDados().salvaUsuario(usuario);\r\n        return usuario;\r\n    }\r\n\r\n    @Override\r\n    public Raizes calculaFuncaoSegundoGrau(double a, double b, double c) {\r\n        if (a == 0) {\r\n            throw new RuntimeException(\"O coeficiente a deve ser diferente de zero!\");\r\n        }\r\n        double delta = Math.sqrt(Math.pow(b, 2) - (4 * a * c));\r\n        if (delta == 0) {\r\n            return new Raizes();\r\n        } else if (delta > 0) {\r\n            double x1 = (-b + delta) / 2 * a;\r\n            double x2 = (-b - delta) / 2 * a;\r\n            return new Raizes(x1, x2);\r\n        } else {\r\n            throw new RuntimeException(\"A função não tem raizes reais\");\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public boolean ehTriangulo(double angulo1, double angulo2, double angulo3) {\r\n        return angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && (\r\n                (angulo1 + angulo2 + angulo3) == 180\r\n        );\r\n    }\r\n\r\n    @Override\r\n    public boolean ehTrianguloRetangulo(double lado1, double lado2, double lado3) {\r\n        if (lado1 > 0 && lado2 > 0 && lado3 > 0 ) {\r\n            if (lado1 * lado1 + lado2 * lado2 == lado3 * lado3) {\r\n                return true;\r\n            } else if (lado2 * lado2 + lado3 * lado3 == lado1 * lado1) {\r\n                return true;\r\n            }\r\n            else if (lado3 * lado3 + lado1 * lado1 == lado2 * lado2) {\r\n                return true;\r\n            }\r\n            return false;\r\n        }\r\n        else {\r\n            throw new RuntimeException(\"Os lados do triangulo devem ser maiores que 0\");\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {\r\n        if (ehTriangulo(angulo1, angulo2, angulo3)){\r\n            if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){\r\n                return \"Triangulo Acutangulo\";\r\n            }\r\n            else if (angulo1 == 90 || angulo2 == 90 || angulo3 == 90){\r\n                return \"Triangulo Retangulo\";\r\n            }\r\n            else if (angulo1 > 90 || angulo2 > 90 || angulo3 > 90){\r\n                return \"Triangulo Obtusangulo\";\r\n            }\r\n        }\r\n        throw new RuntimeException(\"Os angulos não correspondem a um triângulo\");\r\n    }\r\n\r\n    @Override\r\n    public boolean ehRetangulo(double angulo1, double angulo2, double angulo3, double angulo4) {\r\n        if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && angulo4 > 0) {\r\n            return angulo1 == 90 && angulo2 == 90 && angulo3 == 90 && angulo4 == 90;\r\n        }\r\n        else {\r\n            throw new RuntimeException(\"Os ângulos devem ser maiores que 0\");\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public double perimetroRetangulo(double lado1, double lado2) {\r\n        if (lado1 > 0 && lado2 > 0) {\r\n            return lado1 + lado2 + lado1 + lado2;\r\n        }\r\n\r\n        throw new RuntimeException(\"Os valores que representam os lados do retângulo devem ser positivos!\");\r\n    }\r\n\r\n    @Override\r\n    public double areaRetangulo(double lado1, double lado2) {\r\n        if (lado1 > 0 && lado2 > 0) {\r\n            return BigDecimal.valueOf(lado1 * lado2)\r\n                    .setScale(2, RoundingMode.HALF_UP)\r\n                    .doubleValue();\r\n        }\r\n        throw new RuntimeException(\"Os valores que representam os lados do retângulo devem ser positivos!\");\r\n    }\r\n\r\n    @Override\r\n    public double calculadora(String expressao) {\r\n        try {\r\n            String[] operacao = expressao.trim().split(\"\\\\s+\");\r\n            if (operacao.length != 3 || operacao[0].isEmpty() || operacao[1].isEmpty() || operacao[2].isEmpty()) {\r\n                throw new InvalidAttributeValueException();\r\n            }\r\n\r\n            double resultado;\r\n            double num1 = Double.parseDouble(operacao[0]);\r\n            double num2 = Double.parseDouble(operacao[2]);\r\n            String operador = operacao[1];\r\n\r\n            switch (operador) {\r\n                case \"+\":\r\n                    resultado = num1 + num2;\r\n                    break;\r\n                case \"-\":\r\n                    resultado = num1 - num2;\r\n                    break;\r\n                case \"*\":\r\n                    resultado = num1 * num2;\r\n                    break;\r\n                case \"/\":\r\n                    if (num2 != 0) {\r\n                        resultado = num1 / num2;\r\n                    } else {\r\n                        throw new ArithmeticException();\r\n                    }\r\n                    break;\r\n                case \"**\":\r\n                    if (num2 < 0 && num1 == 0 ||  !operacao[2].matches(\"-?\\\\d+\")) {\r\n                        throw new ArithmeticException();\r\n                    }\r\n                    resultado = Math.pow(num1, num2);\r\n                    break;\r\n                default:\r\n                    throw new ArithmeticException();\r\n            }\r\n            return Double.parseDouble(String.format(\"%.2f\", resultado).replace(\",\", \".\"));\r\n        }\r\n        catch(InvalidAttributeValueException ex){\r\n            throw new RuntimeException(\"Expressão inválida. Sintaxe: \\\"NUMERO1 OPERADOR NUMERO2\\\"\");\r\n        }\r\n        catch(ArithmeticException ex){\r\n            throw new RuntimeException(\"\\nA operação é inválida. Tente realizar a operação com outros números.\\n\");\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public double areaCirculo(double raio) {\r\n        if (raio > 0) {\r\n            double area = Math.PI * Math.pow(raio, 2);\r\n            return BigDecimal.valueOf(area)\r\n                    .setScale(2, RoundingMode.HALF_UP)\r\n                    .doubleValue();\r\n        }\r\n\r\n        throw new RuntimeException(\"O valor do raio deve ser positivo!\");\r\n    }\r\n\r\n    @Override\r\n    public double perimetroCirculo(double raio) {\r\n        if (raio > 0) {\r\n            double perimetro = 2 * Math.PI * raio;\r\n            return BigDecimal.valueOf(perimetro)\r\n                    .setScale(2, RoundingMode.HALF_UP)\r\n                    .doubleValue();\r\n        }\r\n\r\n        throw new RuntimeException(\"\\nDados inválidos. Digite um valor numérico e positivo que represente um raio.\\n\");\r\n    }\r\n\r\n    @Override\r\n    public double distanciaEntreDoisPontos(double x1, double y1, double x2, double y2) {\r\n        double distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));\r\n        return BigDecimal.valueOf(distancia)\r\n                .setScale(2, RoundingMode.HALF_UP)\r\n                .doubleValue();\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/FuncionalidadesIFImp.java b/src/main/java/FuncionalidadesIFImp.java
+--- a/src/main/java/FuncionalidadesIFImp.java	(revision 690befaeec1a78d4a399256ca567fa295414ef5e)
++++ b/src/main/java/FuncionalidadesIFImp.java	(date 1668784473358)
+@@ -101,7 +101,7 @@
+             return false;
+         }
+         else {
+-            throw new RuntimeException("Os lados do triangulo devem ser maiores que 0");
++            throw new RuntimeException("Os lados do triângulo devem ser maiores que 0");
+         }
+     }
+ 
+@@ -109,16 +109,16 @@
+     public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {
+         if (ehTriangulo(angulo1, angulo2, angulo3)){
+             if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){
+-                return "Triangulo Acutangulo";
++                return "Triângulo Acutângulo";
+             }
+             else if (angulo1 == 90 || angulo2 == 90 || angulo3 == 90){
+-                return "Triangulo Retangulo";
++                return "Triângulo Retângulo";
+             }
+             else if (angulo1 > 90 || angulo2 > 90 || angulo3 > 90){
+-                return "Triangulo Obtusangulo";
++                return "Triângulo Obtusângulo";
+             }
+         }
+-        throw new RuntimeException("Os angulos não correspondem a um triângulo");
++        throw new RuntimeException("Os ângulos não correspondem à um triângulo");
+     }
+ 
+     @Override
+Index: src/main/java/InterfaceTexto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.InputMismatchException;\r\nimport java.util.Scanner;\r\n\r\npublic class InterfaceTexto {\r\n    private final static Scanner sc = new Scanner(System.in);\r\n\r\n    public static void opcoes() {\r\n        System.out.println(\"Digite a opção desejada (0 para sair):\");\r\n        System.out.println(\"1 = Cadastro de usuário\\n2 = Raizes de segundo grau\");\r\n        System.out.println(\"3 = É triangulo?\\n4 = Classificar triangulo\");\r\n        System.out.println(\"5 = Verificar se triangulo é retangulo\\n6 = É retangulo?\");\r\n        System.out.println(\"7 = Área e perimetro do retangulo\\n8 = Calculadora\");\r\n        System.out.println(\"9 = Área e perimetro do circulo\\n10 = Distancia entre dois pontos\");\r\n    }\r\n\r\n    public static int capturaOpcao() {\r\n        int opcao;\r\n        try {\r\n            opcao = sc.nextInt();\r\n        } catch (Exception e) {\r\n            throw new RuntimeException(\"Entrada inválida\", e);\r\n        }\r\n        if (opcao < 0 || opcao > 10) {\r\n            throw new RuntimeException(\"Entrada inválida\");\r\n        }\r\n        return opcao;\r\n    }\r\n\r\n    public static void executaFuncao(int opcao, FuncionalidadesIF funcionalidadesIF) {\r\n        try {\r\n            switch (opcao) {\r\n                case 1:\r\n                    System.out.println(\"Digite o nome do usuario:\");\r\n                    var nome = sc.next();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o email do usuario:\");\r\n                    var email = sc.next();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite a senha do usuario:\");\r\n                    var senha = sc.nextLine();\r\n                    var usuario = funcionalidadesIF.cadastraUsuario(nome, email, senha);\r\n                    System.out.printf(\"Usuário criado: %s\\n\", usuario);\r\n                    break;\r\n                case 2:\r\n                    System.out.println(\"Digite o coeficiente a:\");\r\n                    var a = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o coeficiente b:\");\r\n                    var b = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o coeficiente c:\");\r\n                    var c = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    var raizes = funcionalidadesIF.calculaFuncaoSegundoGrau(a, b, c);\r\n                    System.out.printf(\"Raizes: %s\\n\", raizes);\r\n                    break;\r\n                case 3:\r\n                    System.out.println(\"Digite o angulo 1:\");\r\n                    var a1 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 2:\");\r\n                    var a2 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 3:\");\r\n                    var a3 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println((funcionalidadesIF.ehTriangulo(a1, a2, a3) ? \"É\" : \"Não é\") + \" triangulo\");\r\n                    break;\r\n                case 4:\r\n                    System.out.println(\"Digite o angulo 1:\");\r\n                    a1 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 2:\");\r\n                    a2 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 3:\");\r\n                    a3 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(funcionalidadesIF.classificaTriangulo(a1, a2, a3));\r\n                    break;\r\n                case 5:\r\n                    System.out.println(\"Digite o lado 1:\");\r\n                    var l1 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o lado 2:\");\r\n                    var l2 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o lado 3:\");\r\n                    var l3 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println((funcionalidadesIF.ehTrianguloRetangulo(l1, l2, l3) ? \"É\" : \"Não é\") + \" retangulo\");\r\n                    break;\r\n                case 6:\r\n                    System.out.println(\"Digite o angulo 1:\");\r\n                    a1 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 2:\");\r\n                    a2 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 3:\");\r\n                    a3 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o angulo 4:\");\r\n                    var a4 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println((funcionalidadesIF.ehRetangulo(a1, a2, a3, a4) ? \"É\" : \"Não é\") + \" retangulo\");\r\n                    break;\r\n                case 7:\r\n                    System.out.println(\"Digite um lado:\");\r\n                    l1 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Digite o outro lado:\");\r\n                    l2 = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.println(\"Area: \" + funcionalidadesIF.areaRetangulo(l1, l2));\r\n                    System.out.println(\"Perimetro: \" + funcionalidadesIF.perimetroRetangulo(l1, l2));\r\n                    break;\r\n                case 8:\r\n                    System.out.println(\"Digite uma expressão do tipo \\\"1 + 1\\\":\");\r\n                    sc.nextLine();\r\n                    var exp = sc.nextLine();\r\n                    System.out.printf(\"Resultado: %.3f\\n\", funcionalidadesIF.calculadora(exp));\r\n                    break;\r\n                case 9:\r\n                    System.out.println(\"Digite o raio do circulo:\");\r\n                    var r = sc.nextDouble();\r\n                    sc.nextLine();\r\n                    System.out.printf(\"Area do circulo: %.2f\\n\", funcionalidadesIF.areaCirculo(r));\r\n                    System.out.printf(\"Perimetro do circulo: %.2f\\n\", funcionalidadesIF.perimetroCirculo(r));\r\n                    break;\r\n                case 10:\r\n                    System.out.println(\"Digite a posicao do ponto a(x,y):\");\r\n                    String[] aAux = sc.next().split(\",\");\r\n                    sc.nextLine();\r\n                    var xa = Double.parseDouble(aAux[0]);\r\n                    var ya = Double.parseDouble(aAux[1]);\r\n                    System.out.println(\"Digite a posicao do ponto b(x,y):\");\r\n                    String[] bAux = sc.next().split(\",\");\r\n                    var xb = Double.parseDouble(bAux[0]);\r\n                    var yb = Double.parseDouble(bAux[1]);\r\n                    System.out.printf(\"A distancia entre os dois pontos é: %.2f\\n\", funcionalidadesIF.distanciaEntreDoisPontos(xa, ya, xb, yb));\r\n                    break;\r\n            }\r\n        } catch (InputMismatchException | IndexOutOfBoundsException | NumberFormatException e) {\r\n            throw new RuntimeException(\"Entradas invalidas para a opção \" + opcao);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/InterfaceTexto.java b/src/main/java/InterfaceTexto.java
+--- a/src/main/java/InterfaceTexto.java	(revision 690befaeec1a78d4a399256ca567fa295414ef5e)
++++ b/src/main/java/InterfaceTexto.java	(date 1668786794737)
+@@ -6,11 +6,11 @@
+ 
+     public static void opcoes() {
+         System.out.println("Digite a opção desejada (0 para sair):");
+-        System.out.println("1 = Cadastro de usuário\n2 = Raizes de segundo grau");
+-        System.out.println("3 = É triangulo?\n4 = Classificar triangulo");
+-        System.out.println("5 = Verificar se triangulo é retangulo\n6 = É retangulo?");
+-        System.out.println("7 = Área e perimetro do retangulo\n8 = Calculadora");
+-        System.out.println("9 = Área e perimetro do circulo\n10 = Distancia entre dois pontos");
++        System.out.println("1 = Cadastro de usuário\n2 = Raízes de segundo grau");
++        System.out.println("3 = É triângulo?\n4 = Classificar triângulo");
++        System.out.println("5 = Verificar se triângulo é retângulo\n6 = É retângulo?");
++        System.out.println("7 = Área e perímetro do retângulo\n8 = Calculadora");
++        System.out.println("9 = Área e perímetro do círculo\n10 = Distância entre dois pontos");
+     }
+ 
+     public static int capturaOpcao() {
+@@ -30,13 +30,13 @@
+         try {
+             switch (opcao) {
+                 case 1:
+-                    System.out.println("Digite o nome do usuario:");
++                    System.out.println("Digite o nome do usuário:");
+                     var nome = sc.next();
+                     sc.nextLine();
+-                    System.out.println("Digite o email do usuario:");
++                    System.out.println("Digite o email do usuário:");
+                     var email = sc.next();
+                     sc.nextLine();
+-                    System.out.println("Digite a senha do usuario:");
++                    System.out.println("Digite a senha do usuário:");
+                     var senha = sc.nextLine();
+                     var usuario = funcionalidadesIF.cadastraUsuario(nome, email, senha);
+                     System.out.printf("Usuário criado: %s\n", usuario);
+@@ -52,28 +52,28 @@
+                     var c = sc.nextDouble();
+                     sc.nextLine();
+                     var raizes = funcionalidadesIF.calculaFuncaoSegundoGrau(a, b, c);
+-                    System.out.printf("Raizes: %s\n", raizes);
++                    System.out.printf("Raízes: %s\n", raizes);
+                     break;
+                 case 3:
+-                    System.out.println("Digite o angulo 1:");
++                    System.out.println("Digite o ângulo 1:");
+                     var a1 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 2:");
++                    System.out.println("Digite o ângulo 2:");
+                     var a2 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 3:");
++                    System.out.println("Digite o ângulo 3:");
+                     var a3 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println((funcionalidadesIF.ehTriangulo(a1, a2, a3) ? "É" : "Não é") + " triangulo");
++                    System.out.println((funcionalidadesIF.ehTriangulo(a1, a2, a3) ? "É um" : "Não é um") + " triângulo");
+                     break;
+                 case 4:
+-                    System.out.println("Digite o angulo 1:");
++                    System.out.println("Digite o ângulo 1:");
+                     a1 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 2:");
++                    System.out.println("Digite o ângulo 2:");
+                     a2 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 3:");
++                    System.out.println("Digite o ângulo 3:");
+                     a3 = sc.nextDouble();
+                     sc.nextLine();
+                     System.out.println(funcionalidadesIF.classificaTriangulo(a1, a2, a3));
+@@ -88,22 +88,22 @@
+                     System.out.println("Digite o lado 3:");
+                     var l3 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println((funcionalidadesIF.ehTrianguloRetangulo(l1, l2, l3) ? "É" : "Não é") + " retangulo");
++                    System.out.println((funcionalidadesIF.ehTrianguloRetangulo(l1, l2, l3) ? "É um triângulo" : "Não é um triângulo") + " retângulo");
+                     break;
+                 case 6:
+-                    System.out.println("Digite o angulo 1:");
++                    System.out.println("Digite o ângulo 1:");
+                     a1 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 2:");
++                    System.out.println("Digite o ângulo 2:");
+                     a2 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 3:");
++                    System.out.println("Digite o ângulo 3:");
+                     a3 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Digite o angulo 4:");
++                    System.out.println("Digite o ângulo 4:");
+                     var a4 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println((funcionalidadesIF.ehRetangulo(a1, a2, a3, a4) ? "É" : "Não é") + " retangulo");
++                    System.out.println((funcionalidadesIF.ehRetangulo(a1, a2, a3, a4) ? "É um" : "Não é um") + " retângulo");
+                     break;
+                 case 7:
+                     System.out.println("Digite um lado:");
+@@ -112,8 +112,8 @@
+                     System.out.println("Digite o outro lado:");
+                     l2 = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.println("Area: " + funcionalidadesIF.areaRetangulo(l1, l2));
+-                    System.out.println("Perimetro: " + funcionalidadesIF.perimetroRetangulo(l1, l2));
++                    System.out.println("Área: " + funcionalidadesIF.areaRetangulo(l1, l2));
++                    System.out.println("Perímetro: " + funcionalidadesIF.perimetroRetangulo(l1, l2));
+                     break;
+                 case 8:
+                     System.out.println("Digite uma expressão do tipo \"1 + 1\":");
+@@ -122,27 +122,27 @@
+                     System.out.printf("Resultado: %.3f\n", funcionalidadesIF.calculadora(exp));
+                     break;
+                 case 9:
+-                    System.out.println("Digite o raio do circulo:");
++                    System.out.println("Digite o raio do círculo:");
+                     var r = sc.nextDouble();
+                     sc.nextLine();
+-                    System.out.printf("Area do circulo: %.2f\n", funcionalidadesIF.areaCirculo(r));
+-                    System.out.printf("Perimetro do circulo: %.2f\n", funcionalidadesIF.perimetroCirculo(r));
++                    System.out.printf("Área do círculo: %.2f\n", funcionalidadesIF.areaCirculo(r));
++                    System.out.printf("Perímetro do círculo: %.2f\n", funcionalidadesIF.perimetroCirculo(r));
+                     break;
+                 case 10:
+-                    System.out.println("Digite a posicao do ponto a(x,y):");
++                    System.out.println("Digite a posição do ponto a(x,y). Ex: 4,6");
+                     String[] aAux = sc.next().split(",");
+                     sc.nextLine();
+                     var xa = Double.parseDouble(aAux[0]);
+                     var ya = Double.parseDouble(aAux[1]);
+-                    System.out.println("Digite a posicao do ponto b(x,y):");
++                    System.out.println("Digite a posição do ponto b(x,y). Ex: 5,8:");
+                     String[] bAux = sc.next().split(",");
+                     var xb = Double.parseDouble(bAux[0]);
+                     var yb = Double.parseDouble(bAux[1]);
+-                    System.out.printf("A distancia entre os dois pontos é: %.2f\n", funcionalidadesIF.distanciaEntreDoisPontos(xa, ya, xb, yb));
++                    System.out.printf("A distância entre os dois pontos é: %.2f\n", funcionalidadesIF.distanciaEntreDoisPontos(xa, ya, xb, yb));
+                     break;
+             }
+         } catch (InputMismatchException | IndexOutOfBoundsException | NumberFormatException e) {
+-            throw new RuntimeException("Entradas invalidas para a opção " + opcao);
++            throw new RuntimeException("Entradas inválidas para a opção " + opcao);
+         }
+     }
+ }
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_X\" default=\"true\" project-jdk-name=\"18 (2)\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"jpab\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 690befaeec1a78d4a399256ca567fa295414ef5e)
++++ b/.idea/misc.xml	(date 1668783636722)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="18 (2)" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18 (2)" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+   <component name="ProjectType">
+Index: banco.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Arthur;arthu2r@email.com;ABC#12das@bbbb\r\nArthur;arthu2r@email.com;ABC#12das@bbbb\r\nArthur;arthu2r@email.com;ABC#12das@bbbb\r\nArthur;arthu2r@email.com;ABC#12das@bbbb\r\nArthur;arthu2r@email.com;ABC#12das@bbbb\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/banco.txt b/banco.txt
+--- a/banco.txt	(revision 690befaeec1a78d4a399256ca567fa295414ef5e)
++++ b/banco.txt	(date 1668786999037)
+@@ -3,3 +3,5 @@
+ Arthur;arthu2r@email.com;ABC#12das@bbbb
+ Arthur;arthu2r@email.com;ABC#12das@bbbb
+ Arthur;arthu2r@email.com;ABC#12das@bbbb
++Vitor;vitor@email.com;Vitor_123
++nani;nani12@gmail.com;Nani_123
