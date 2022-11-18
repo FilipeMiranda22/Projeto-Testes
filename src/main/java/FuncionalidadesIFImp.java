@@ -33,7 +33,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
     }
 
     private boolean validarEmail(String email) {
-        return patternEmail.matcher(email).matches();
+        return email != null && !email.isBlank() && patternEmail.matcher(email).matches();
     }
 
     @Override
@@ -43,6 +43,9 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
         }
         if (!validarEmail(email)) {
             throw new RuntimeException("Email invalido");
+        }
+        if (nome == null || nome.isBlank()) {
+            throw new RuntimeException("Nome invalido");
         }
 
         if (getBancoDeDados() == null) {
@@ -110,8 +113,8 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
     public double areaRetangulo(double lado1, double lado2) {
         if (lado1 > 0 && lado2 > 0) {
             return BigDecimal.valueOf(lado1 * lado2)
-                .setScale(2, RoundingMode.HALF_UP)
-                .doubleValue();
+                    .setScale(2, RoundingMode.HALF_UP)
+                    .doubleValue();
         }
         throw new RuntimeException("Os valores que representam os lados do retângulo devem ser positivos!");
     }
@@ -164,7 +167,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
             System.out.println("\nA operação é inválida. Tente realizar a operação com outros números.\n");
         }
 
-        throw RuntimeException("Erro durante o procesamento. Tente novamente!")
+        throw new RuntimeException("Erro durante o procesamento. Tente novamente!");
     }
 
     @Override
@@ -172,11 +175,11 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
         if (raio > 0) {
             double area = Math.PI * Math.pow(raio, 2);
             return BigDecimal.valueOf(area)
-                .setScale(2, RoundingMode.HALF_UP)
-                .doubleValue();
+                    .setScale(2, RoundingMode.HALF_UP)
+                    .doubleValue();
         }
-        
-         throw new RuntimeException("O valor do raio deve ser positivo!");
+
+        throw new RuntimeException("O valor do raio deve ser positivo!");
     }
 
     @Override
@@ -184,8 +187,8 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
         if (raio > 0) {
             double perimetro = 2 * Math.PI * raio;
             return BigDecimal.valueOf(perimetro)
-                .setScale(2, RoundingMode.HALF_UP)
-                .doubleValue();
+                    .setScale(2, RoundingMode.HALF_UP)
+                    .doubleValue();
         }
 
         throw new RuntimeException("\nDados inválidos. Digite um valor numérico e positivo que represente um raio.\n");
@@ -193,10 +196,10 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double distanciaEntreDoisPontos(double x1, double y1, double x2, double y2) {
-        double distancia = Math.sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+        double distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
         return BigDecimal.valueOf(distancia)
-            .setScale(2, RoundingMode.HALF_UP)
-            .doubleValue();
+                .setScale(2, RoundingMode.HALF_UP)
+                .doubleValue();
     }
 
 }
