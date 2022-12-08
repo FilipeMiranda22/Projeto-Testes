@@ -11,6 +11,14 @@ import java.util.regex.Pattern;
 import javax.management.InvalidAttributeValueException;
 
 public class FuncionalidadesIFImp implements FuncionalidadesIF {
+    private void validarNumerosNaoNegativos(double... numeros) {
+        for(double numero: numeros) {
+            if(numero < 0) {
+                throw new RuntimeException("O número " + numero + " não pode ser negativo");
+            }
+        }
+
+    }
     private BancoDeDados getBancoDeDados() {
         return bancoDeDados;
     }
@@ -82,6 +90,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public boolean ehTriangulo(double angulo1, double angulo2, double angulo3) {
+        validarNumerosNaoNegativos(angulo1, angulo2, angulo3);
         return angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && (
                 (angulo1 + angulo2 + angulo3) == 180
         );
@@ -89,6 +98,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public boolean ehTrianguloRetangulo(double lado1, double lado2, double lado3) {
+        validarNumerosNaoNegativos(lado1, lado2, lado3);
         if (lado1 > 0 && lado2 > 0 && lado3 > 0 ) {
             if (lado1 * lado1 + lado2 * lado2 == lado3 * lado3) {
                 return true;
@@ -107,6 +117,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public String classificaTriangulo(double angulo1, double angulo2, double angulo3) {
+        validarNumerosNaoNegativos(angulo1, angulo2, angulo3);
         if (ehTriangulo(angulo1, angulo2, angulo3)){
             if (angulo1 < 90 && angulo2 < 90 && angulo3 < 90){
                 return "Triângulo Acutângulo";
@@ -123,6 +134,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public boolean ehRetangulo(double angulo1, double angulo2, double angulo3, double angulo4) {
+        validarNumerosNaoNegativos(angulo1, angulo2, angulo3, angulo4);
         if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0 && angulo4 > 0) {
             return angulo1 == 90 && angulo2 == 90 && angulo3 == 90 && angulo4 == 90;
         }
@@ -133,6 +145,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double perimetroRetangulo(double lado1, double lado2) {
+        validarNumerosNaoNegativos(lado1, lado2);
         if (lado1 > 0 && lado2 > 0) {
             return lado1 + lado2 + lado1 + lado2;
         }
@@ -142,6 +155,7 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double areaRetangulo(double lado1, double lado2) {
+        validarNumerosNaoNegativos(lado1, lado2);
         if (lado1 > 0 && lado2 > 0) {
             return BigDecimal.valueOf(lado1 * lado2)
                     .setScale(2, RoundingMode.HALF_UP)
@@ -201,18 +215,16 @@ public class FuncionalidadesIFImp implements FuncionalidadesIF {
 
     @Override
     public double areaCirculo(double raio) {
-        if (raio > 0) {
-            double area = Math.PI * Math.pow(raio, 2);
-            return BigDecimal.valueOf(area)
-                    .setScale(2, RoundingMode.HALF_UP)
-                    .doubleValue();
-        }
-
-        throw new RuntimeException("O valor do raio deve ser positivo!");
+        validarNumerosNaoNegativos(raio);
+        double area = Math.PI * Math.pow(raio, 2);
+        return BigDecimal.valueOf(area)
+                .setScale(2, RoundingMode.HALF_UP)
+                .doubleValue();
     }
 
     @Override
     public double perimetroCirculo(double raio) {
+        validarNumerosNaoNegativos(raio);
         if (raio > 0) {
             double perimetro = 2 * Math.PI * raio;
             return BigDecimal.valueOf(perimetro)
